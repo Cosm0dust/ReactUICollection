@@ -1,0 +1,29 @@
+.d_button {
+  height: 100%;
+  width: 100%;
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 800;
+  outline: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.d_button:hover,
+.d_button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.d_button:active {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=ButtonDelete.module.css.map */

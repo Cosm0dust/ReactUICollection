@@ -7,7 +7,7 @@ const Header = () => {
             <h1>CustomOnes</h1>
             <h2>UI elements and snippets</h2>
             <div>
-                <NavLink to={'/buttons'}/>
+                <NavLink to={'/buttons'}> Buttons</NavLink>
             </div>
 
         </div>

@@ -1,0 +1,25 @@
+.area{
+  resize: none;
+  width: 20em;
+  height: 7rem;
+  font-size: 1rem;
+}
+
+.area::-webkit-scrollbar{
+  width: 0.3em;
+}
+
+
+
+.area::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+.area::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.area::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
