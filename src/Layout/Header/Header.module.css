@@ -1,0 +1,7 @@
+.header__links {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

@@ -1,3 +1,15 @@
-
+.inputs {
+  width: 100%;
+}
+.inputs .template {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 3em;
+}
+.inputs .template .inputWrapper {
+  height: 5em;
+  width: 10em;
+}
 
 /*# sourceMappingURL=Inputs.module.css.map */

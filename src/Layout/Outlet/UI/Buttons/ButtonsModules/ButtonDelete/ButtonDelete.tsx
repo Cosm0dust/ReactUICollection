@@ -2,7 +2,7 @@ import React from 'react';
 import s from './ButtonDelete.module.css'
 
 interface ButtonDeleteProps {
-    handleDeleteClick: () => void;
+    handleDeleteClick : () => void ;
     deleteText: string;
 }
 

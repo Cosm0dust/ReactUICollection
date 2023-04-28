@@ -1,0 +1,15 @@
+.buttonFlex{
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+
+  .buttonWrapper{
+    height: 10em;
+    width: 10em;
+    border: 1px solid #00dfc4;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+  }
+}
+

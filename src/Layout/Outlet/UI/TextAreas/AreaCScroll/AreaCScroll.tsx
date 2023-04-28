@@ -1,5 +1,5 @@
 import React, { ChangeEvent, FC } from 'react';
-import s from './TextAreas.module.css'
+import s from './AreaCScroll.module.css'
 
 interface TextAreasProps {
     value: string;

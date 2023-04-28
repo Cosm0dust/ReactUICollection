@@ -2,18 +2,20 @@ import React, { useState } from 'react';
 import s from './ButtonEdit.module.css'
 
 interface ButtonEditProps {
-   editing: boolean;
+   edit: boolean;
     editText: string;
     saveText: string;
-    handleUpdateClick: () => void;
-    setEditing: React.Dispatch<React.SetStateAction<boolean>>;
+    /*handleUpdateClick: () => void;*/
+
 };
 
-const ButtonEdit: React.FC<ButtonEditProps> = ({ editText, saveText, handleUpdateClick, editing , setEditing}) => {
+const ButtonEdit: React.FC<ButtonEditProps> = ({ editText, saveText,  edit }) => {
+    const [editing, setEditing] = useState(false)
+
 
 
     return (
-        <button className={s.e_button} onClick={editing ? handleUpdateClick : () => setEditing(true)}>
+        <button className={s.e_button} onClick={editing? ()=> setEditing(false) : ()=> setEditing(true)}>
             {editing ? saveText : editText}
         </button>
     );

@@ -1,0 +1,56 @@
+.inputContainer{
+  border-radius: 10px;
+
+  width: 100%;
+
+  background-color: #1d2b3a;
+
+  .inputBox{
+    position: relative;
+    width: 100%;
+
+    input{
+      width: 100%;
+      padding: 5%;
+      border: 1px solid rgba(255,255,255,0.25);
+      background-color: #1d2b3a;
+      border-radius: 5px;
+      outline: none;
+      color: #fff;
+      font-size: 1em;
+      transition: 0.5s;
+    }
+
+    span{
+      position: absolute;
+      left: 0;
+      padding: 10px;
+      pointer-events: none;
+      font-size: 1em;
+      color: rgba(255,255,255,0.25);
+      text-transform: uppercase;
+      transition: 0.5s;
+    }
+
+
+    input:focus ~ span, {
+      color: #00dfc4;
+      transform: translateX(1em) translateY(-0.7em);
+      font-size: 0.65em;
+      padding: 0 10px;
+      background-color: #1d2b3a;
+      border-left: 1px solid #00dfc4;
+      border-right: 1px solid #00dfc4;
+      letter-spacing: 0.2em;
+    }
+
+
+    input:focus, {
+      color: #00dfc4;
+    }
+  }
+}
+
+
+
+

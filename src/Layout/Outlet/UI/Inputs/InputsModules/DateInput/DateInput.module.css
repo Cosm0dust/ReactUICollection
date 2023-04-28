@@ -1,0 +1,18 @@
+.dateInput input[type=date] {
+  background-color: #0080ff;
+  padding: 0.5em;
+  font-family: "Roboto Mono", sans-serif;
+  color: #FFFFFF;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.dateInput ::-webkit-calendar-picker-indicator {
+  background-color: #FFFFFF;
+  padding: 0.3em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=DateInput.module.css.map */

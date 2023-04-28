@@ -1,19 +1,28 @@
 import React from 'react';
-import s from './Buttons.module.css'
-import Input1 from "./InputsModules/Input1/Input1";
+import s from './Inputs.module.css'
+import FlyPlaceholder from "./InputsModules/FlyPlaceholder/FlyPlaceholder";
+import BlueInput from "./InputsModules/BlueInput/BlueInput";
+import DateInput from "./InputsModules/DateInput/DateInput";
 
 const Buttons = () => {
     return (
-        <div className={s.buttons}>
-            <div className={s.buttons__side}>
+        <div className={s.inputs}>
+            <div className={s.inputs__side}>
                 Side Topics
             </div>
-            <div className={s.buttons__layOut}>
-                <div className={s.template}>
+            <div className={s.inputs__layOut}>
                     <h1>CssOnly</h1>
-                    <div>
-                        <Input1 value={''} placeholder={''} onChange={undefined}/>
+                <div className={s.template}>
+                    <div className={s.inputsWrapper}>
+                        <BlueInput value={''} placeholder={''} onChange={undefined}/>
                     </div>
+                    <div  className={s.inputsWrapper}>
+                        <FlyPlaceholder value={''} placeholder={'testText'} onChange={undefined}/>
+                    </div>
+                    <div  className={s.inputsWrapper}>
+                        <DateInput value={''} onChange={undefined}/>
+                    </div>
+
                 </div>
             </div>
         </div>
